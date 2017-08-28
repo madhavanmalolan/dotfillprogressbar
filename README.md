@@ -5,7 +5,7 @@
 A simple progressbar for everyday use :)
 Easy to customize!
 
-![screenshot](https://github.com/madhavanmalolan/dotfillprogressbar/blob/master/screenshot.png "Screenshot of demo")
+![screenshot](https://github.com/madhavanmalolan/dotfillprogressbar/blob/master/screenshot.png?raw=true "Screenshot of demo")
 
 ## Gradle Build
 
@@ -62,5 +62,9 @@ Parameters
         dotProgressIndicator.setFilled(3);
 ```
 
-### License
+## Contribute
+Feel free to modify this (overly simple) library to suit your needs. PRs accepted!
+
+
+## License
 This project is bound by the MIT license. Feel free to use it and not tell others about it! Please be nice, and do tell others though :)
