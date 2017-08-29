@@ -19,12 +19,13 @@
     <com.madhavanmalolan.dotfillprogress.DotFillProgressbar
         android:id="@+id/test"
         indicator:circleBorderWidth="1dp"
-        indicator:circles="10"
-        indicator:circleRadius="5dp"
-        indicator:circleSpacing="15dp"
+        indicator:circles="5"
+        indicator:circleRadius="4dp"
+        indicator:circleSpacing="30dp"
         indicator:circleBorderColor="#ff0000"
         indicator:circleFillColor="#00ff00"
+        indicator:locusRadius="50dp"
         android:layout_width="wrap_content"
-        android:layout_height="64dp" />
+        android:layout_height="wrap_content"/>
 
 </android.support.constraint.ConstraintLayout>

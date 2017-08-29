@@ -60,21 +60,21 @@ artifacts {
     archives sourcesJar
 }
 
-group = 'dotprogressindicator.madhavanmalolan.android'
-version = '0.1.1'
+group = 'com.madhavanmalolan.android'
+version = '0.1.2'
 
 install {
     repositories.mavenInstaller {
         pom.project {
-            name 'dotprogressindicator'
+            name 'dotfillprogress'
             description 'A progressbar that fills empty dots'
             url 'https://github.com/madhavanmalolan/dotfillprogressbar'
-            inceptionYear '2016'
+            inceptionYear '2017'
 
             packaging 'aar'
-            groupId 'dotprogressindicator.madhavanmalolan.android'
-            artifactId 'dotprogressindicator'
-            version '0.1.1'
+            groupId 'com.madhavanmalolan.android'
+            artifactId 'dotfillprogress'
+            version '0.1.2'
 
             licenses {
                 license {
@@ -106,15 +106,15 @@ bintray {
     configurations = ['archives']
     pkg {
         repo = 'android'
-        name = 'dotprogressindicator'
+        name = 'dotfillprogress'
         licenses = ['MIT']
         vcsUrl = 'https://github.com/madhavanmalolan/dotfillprogressbar.git'
         publish = true
         version {
-            name = '0.1.1'
-            desc = 'dotprogressindicator 0.1.1'
+            name = '0.1.2'
+            desc = 'dotfillprogress 0.1.2'
             released = new Date()
-            vcsTag = 'v0.1.1'
+            vcsTag = 'v0.1.2'
         }
     }
 }

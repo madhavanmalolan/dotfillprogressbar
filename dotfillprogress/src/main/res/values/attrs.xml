@@ -7,6 +7,7 @@
         <attr name="circleRadius" format="dimension"/>
         <attr name="circleSpacing" format="dimension"/>
         <attr name="circleBorderWidth" format="dimension"/>
+        <attr name="locusRadius" format="dimension"/>
     </declare-styleable>
 
 
