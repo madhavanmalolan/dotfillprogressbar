@@ -65,6 +65,10 @@ Parameters
         dotProgressIndicator.setFilled(3);
 ```
 
+
+## Production apps using this library
+1. [Emotia](https://play.google.com/store/apps/details?id=com.socionity.socialcam "Download on Playstore")
+
 ## Contribute
 Feel free to modify this (overly simple) library to suit your needs. PRs accepted!
 
