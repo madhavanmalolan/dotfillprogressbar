@@ -10,22 +10,12 @@ Easy to customize!
 
 ## Gradle Build
 
-Project level build.gradle
-
-```
-allprojects {
-	repositories {
-		...
-		maven { url 'http://dl.bintray.com/madhavanmalolan/android' }
-	}
-}
-
-```
+Library available over `jcenter()`
 
 App level build.gradle
 
 ```
-    compile 'com.madhavanmalolan.android:dotfillprogress:0.1.2'
+    compile 'com.madhavanmalolan.android:dotfillprogress:0.1.4'
 
 ```
 
